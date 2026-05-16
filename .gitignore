@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+build/
+dist/
+.DS_Store
+
+# Ignore all markdown files (like project_overview.md, features.md, etc.)
+*.md
+
+# Except for the README.md which should be committed
+!README.md
