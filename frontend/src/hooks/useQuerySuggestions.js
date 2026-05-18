@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import axios from 'axios';
 
-const BASE        = 'http://localhost:5000';
+const BASE        = 'https://datafluent-ai.onrender.com';
 const DEBOUNCE_MS = 500;
 const MIN_CHARS   = 10;
 const SPACE_CHARS = 6;

@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import { RefreshCw, ChevronDown, ChevronRight } from 'lucide-react';
 
-const BASE = 'http://localhost:5000';
+const BASE = 'https://datafluent-ai.onrender.com';
 const TYPE_COLOR = {
   int: '#9cdcfe', bigint: '#9cdcfe', tinyint: '#9cdcfe',
   varchar: '#ce9178', text: '#ce9178', char: '#ce9178',

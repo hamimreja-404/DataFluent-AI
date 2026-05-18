@@ -4,7 +4,7 @@ import autoTable from 'jspdf-autotable';
 import { FileSpreadsheet, FileText, FileOutput, Braces, Download, ClipboardCheck } from 'lucide-react';
 import { useState } from 'react';
 
-const BASE = 'http://localhost:5000';
+const BASE = 'https://datafluent-ai.onrender.com';
 
 export default function ExportBar({ data, columns, sql, insight, question }) {
   const [jsonCopied, setJsonCopied] = useState(false);

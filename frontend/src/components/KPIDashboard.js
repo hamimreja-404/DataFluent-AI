@@ -9,7 +9,7 @@ export default function KPIDashboard() {
   useEffect(() => {
     const fetchKPIs = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/kpi');
+        const res = await axios.get('https://datafluent-ai.onrender.com/api/kpi');
         if (res.data.success) {
           setData(res.data);
         }

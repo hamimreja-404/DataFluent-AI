@@ -10,3 +10,5 @@ dist/
 
 # Except for the README.md which should be committed
 !README.md
+db_backup/
+single_backup.sql

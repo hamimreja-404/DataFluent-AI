@@ -18,7 +18,7 @@ import DMLResultCard   from './components/DMLResultCard';
 import KPIDashboard    from './components/KPIDashboard';
 import { XCircle, SearchX } from 'lucide-react';
 
-const BASE = 'http://localhost:5000';
+const BASE = 'https://datafluent-ai.onrender.com';
 
 // DDL operations that change the schema structure → trigger sidebar refresh
 const SCHEMA_CHANGING_OPS = ['ALTER', 'CREATE', 'DROP', 'RENAME'];

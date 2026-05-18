@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Palette, Database, History, Circle } from 'lucide-react';
 
-const BASE = 'http://localhost:5000';
+const BASE = 'https://datafluent-ai.onrender.com';
 
 export default function Header({ onToggleHistory, onToggleSchema, historyCount }) {
   const [dbStatus, setDbStatus] = useState('connecting');
